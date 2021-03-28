@@ -7,6 +7,12 @@
     "web": "expo start --web",
     "eject": "expo eject"
   },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "none",
+    "tabWidth": 4
+  },
   "dependencies": {
     "axios": "^0.21.1",
     "expo": "~40.0.0",
