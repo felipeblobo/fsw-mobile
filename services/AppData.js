@@ -1,9 +1,11 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/'
+const API_URL = 'http://192.168.0.27:8080/'
 
-class AppDataService(pessoa) {
-    return axios.post(`${API_URL}pessoas`, pessoa)
+class AppDataService{
+    cadastrarPessoa(pessoa) {
+        return axios.post(`${API_URL}pessoas`, pessoa)
+    }
 }
 
 export default new AppDataService();
